@@ -1,4 +1,4 @@
-public class Pessoa implements Comparable<Pessoa> {
+public class Pessoa {
 
 	private String nome;
 	private int idade;
@@ -24,14 +24,4 @@ public class Pessoa implements Comparable<Pessoa> {
 		this.idade = idade;
 	}
 	
-	@Override
-	public String toString() {
-		return this.nome + " tem " + this.idade + " anos.";
-	}
-
-	@Override
-	public int compareTo(Pessoa pessoa) {
-		return this.nome.compareTo(pessoa.getNome());
-	}
-
 }
