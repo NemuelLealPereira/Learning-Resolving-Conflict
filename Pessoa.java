@@ -2,10 +2,12 @@ public class Pessoa implements Comparable<Pessoa> {
 
 	private String nome;
 	private int idade;
+	private int age;
 
-	public Pessoa(String nome, int idade) {
-		this.nome = nome;
+	public Pessoa(String nomeCompleto, String idade, int age) {
+		this.nome = nomeCompleto;
 		this.idade = idade;
+		this.age = age;
 	}
 
 	public String getNome() {
