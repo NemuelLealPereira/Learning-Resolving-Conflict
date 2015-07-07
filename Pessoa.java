@@ -1,3 +1,4 @@
+/*@Autor Nemuel*/
 public class Pessoa {
 	
 	/* Atributos*/
