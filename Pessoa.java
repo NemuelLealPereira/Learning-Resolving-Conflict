@@ -1,4 +1,4 @@
-/*@Autor Nemuel*/
+/*@Autor Nemuel Leal*/
 public class Pessoa {
 	
 	/* Atributos*/
