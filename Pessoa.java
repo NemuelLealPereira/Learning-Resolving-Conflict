@@ -1,11 +1,11 @@
 public class Pessoa {
 
-	private String nome;
+	private String sobrenome;
 	private int idade;
 	private int age;
 
-	public Pessoa(String nomeCompleto, String idade, int age) {
-		this.nome = nomeCompleto;
+	public Pessoa(String sobrenome, String idade, int age) {
+		this.sobrenome = sobrenome;
 		this.idade = idade;
 		this.age = age;
 	}
