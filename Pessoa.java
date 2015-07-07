@@ -1,11 +1,11 @@
 public class Pessoa {
 
-	private String nome;
+	private String nomePai;
 	private int idade;
 	private int age;
 
 	public Pessoa(String nomeCompleto, String idade, int age) {
-		this.nome = nomeCompleto;
+		this.nomePai = nomeCompleto;
 		this.idade = idade;
 		this.age = age;
 	}
@@ -15,7 +15,7 @@ public class Pessoa {
 	}
 
 	public void setNome(String nome) {
-		this.nome = nome;
+		this.nomePai = nome;
 	}
 
 	public int getIdade() {
