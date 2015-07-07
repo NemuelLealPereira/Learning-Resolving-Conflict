@@ -1,14 +1,20 @@
 public class Pessoa {
+	
+	/* Atributos*/
 
 	private String nomePaiMae;
 	private int idade;
 	private int age;
+
+	/*Construtor*/
 
 	public Pessoa(String nomeCompleto, String idade, int age) {
 		this.nomePaiMae = nomeCompleto;
 		this.idade = idade;
 		this.age = age;
 	}
+
+	/*Métodos*/
 
 	public String getNome() {
 		return nome;
